@@ -12,7 +12,7 @@ const router = createRouter({
 		{ path: "/", redirect: "/home" },
 		{ path: "/home", component: Home },
 		{ path: "/profile", component: Profile },
-		{ path: "/project/:porjectId", component: Project, props: true },
+		{ path: "/project/:projectId", component: Project, props: true },
 		{ path: "/:notFound(.*)", component: NotFound },
 	],
 });
