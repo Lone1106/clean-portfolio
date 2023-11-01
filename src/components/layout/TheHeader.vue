@@ -20,18 +20,13 @@
 					</ul>
 				</nav>
 
-				<div class="cursor-pointer w-6 text-center">
+				<div
+					class="cursor-pointer w-6 text-center"
+					@click="toggleDarkMode"
+				>
 					<transition name="toggle-mode" mode="out-in">
-						<i
-							v-if="!isDarkMode"
-							class="fa-solid fa-moon fa-lg"
-							@click="toggleDarkMode"
-						></i>
-						<i
-							v-else
-							class="fa-solid fa-sun fa-lg"
-							@click="toggleDarkMode"
-						></i>
+						<i v-if="!isDarkMode" class="fa-solid fa-moon fa-lg"></i>
+						<i v-else class="fa-solid fa-sun fa-lg"></i>
 					</transition>
 				</div>
 
@@ -103,7 +98,7 @@
 
 	.toggle-mode-enter-from,
 	.toggle-mode-leave-to {
-		transform: translateY(30px);
+		transform: translateY(10px);
 		opacity: 0;
 	}
 

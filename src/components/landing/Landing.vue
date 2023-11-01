@@ -1,7 +1,9 @@
 <template>
-	<above-folds></above-folds>
-	<projects></projects>
-	<cta></cta>
+	<div>
+		<above-folds></above-folds>
+		<projects></projects>
+		<cta></cta>
+	</div>
 </template>
 
 <script setup>

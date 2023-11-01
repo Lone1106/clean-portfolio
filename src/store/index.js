@@ -1,6 +1,7 @@
 import { createStore } from "vuex";
 
 import projectsModule from "./modules/projects/index.js";
+import aboutModule from "./modules/about/index.js";
 
 const store = createStore({
 	state() {
@@ -12,10 +13,22 @@ const store = createStore({
 		toggleMode(state) {
 			state.isDarkMode = !state.isDarkMode;
 		},
+		setDarkModeTrue(state) {
+			state.isDarkMode = true;
+		},
+		setDarkModeFalse(state) {
+			state.isDarkMode = false;
+		},
 	},
 	actions: {
 		setMode(context) {
 			context.commit("toggleMode");
+		},
+		setDarkModeActive(context) {
+			context.commit("setDarkModeTrue");
+		},
+		setDarkModeInactive(context) {
+			context.commit("setDarkModeFalse");
 		},
 	},
 	getters: {
@@ -25,6 +38,7 @@ const store = createStore({
 	},
 	modules: {
 		projects: projectsModule,
+		about: aboutModule,
 	},
 });
 

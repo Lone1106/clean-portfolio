@@ -5,6 +5,7 @@
 				:src="currentProject.image"
 				:alt="currentProject.altText"
 				class="w-full"
+				loading="lazy"
 			/>
 		</div>
 

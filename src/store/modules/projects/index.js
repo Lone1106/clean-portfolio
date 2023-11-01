@@ -2,7 +2,7 @@ import getters from "./getters.js";
 
 import jBlog from "../../../assets/jBlog.webp";
 import BeLabel from "../../../assets/BEredesign.webp";
-import XyMedia from "../../../assets/XY-Media.webp";
+import EditorPortfolio from "../../../assets/editor-portfolio.webp";
 
 export default {
 	namespaced: true,
@@ -43,19 +43,19 @@ export default {
 				},
 				{
 					id: 3,
-					slug: "xy-media",
-					image: XyMedia,
-					altText: "XY Media Mockup",
-					title: "XY Media",
+					slug: "editor-portfolio",
+					image: EditorPortfolio,
+					altText: "Editor Portfolio Mockup",
+					title: "Code editor portfolio",
 					linkType: "web",
-					link: "https://leafy-sprinkles-8fa441.netlify.app/",
+					link: "https://ubiquitous-granita-aaf3e4.netlify.app/",
 					shortDescr:
-						"A minimal themed business website for selling digital goods.",
+						"A code editor themed portfolio site inspired by the github dark theme for sublime text.",
 					description:
-						"XY Media is a very simple and minimal page meant to sell digital goods.",
+						"A code editor themed portfolio website to showcase projects, info about oneself and offer viewers a means to contact. The site is inspired by the github dark theme for sublime text. ",
 					goals:
-						"The goal of this practice was to try out tailwind and to build a basic shopping cart with the ability to change the item quantity from with the cart as well as automatic price updating.",
-					techInfo: ["HTML", "Tailwind", "Javascript"],
+						"The goal of this website was to replicate the github dark theme from sublime text as a website.",
+					techInfo: ["React"],
 				},
 			],
 		};
