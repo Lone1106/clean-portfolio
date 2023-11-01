@@ -30,6 +30,10 @@
 				</li>
 			</ul>
 		</div>
-		<p>©2023 Jan Reichherzer. All rights reserved.</p>
+		<p>©{{ copyDate }} Jan Reichherzer. All rights reserved.</p>
 	</footer>
 </template>
+
+<script setup>
+	const copyDate = new Date().getFullYear();
+</script>
