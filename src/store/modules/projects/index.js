@@ -15,13 +15,15 @@ export default {
 					image: jBlog,
 					altText: "jBlog Mockup",
 					title: "jBlog",
-					linkType: "live",
-					link: "",
+					linkType: "web",
+					link: "https://fanciful-kataifi-874129.netlify.app/posts",
 					shortDescr:
 						"A full fledged blog website project to get more familiar with VueJS, Vue-router and Vuex.",
-					description: "",
-					goals: "",
-					techInfo: [],
+					description:
+						"jBlog was my first bigger project that I built using vuejs. It has a lot of the functions a blog site should have, logging in, reading, adding and deleting posts as well a basic filter function. ALl the data for the preview site is stored in vuex and will be deleted after a refresh.",
+					goals:
+						"The goal of this practice was to get more familiar with vuejs, vuex and vue-router as well as implementing a basic filter function to filter through the current posts.",
+					techInfo: ["Vue", "Tailwind"],
 				},
 				{
 					id: 2,
@@ -29,13 +31,15 @@ export default {
 					image: BeLabel,
 					altText: "BE Label Mockup",
 					title: "BE Label",
-					linkType: "live",
-					link: "",
+					linkType: "web",
+					link: "https://luminous-treacle-b8cb1e.netlify.app/",
 					shortDescr:
 						"Redesign of the website of a label printing company operating world wide.",
-					description: "",
-					goals: "",
-					techInfo: [],
+					description:
+						"BE Label (name changed) is a globally operating laber printer firm. The compay is very innovative in its approaches and is one of the leading companies in label priting world wide. Despite that the company website looks quite dated compared to rival companies.",
+					goals:
+						"The goal therefor was to give the company a more modern web presence, while still keeping the design very clean with only the most important informations.",
+					techInfo: ["React", "Tailwind"],
 				},
 				{
 					id: 3,
@@ -43,13 +47,15 @@ export default {
 					image: XyMedia,
 					altText: "XY Media Mockup",
 					title: "XY Media",
-					linkType: "live",
-					link: "",
+					linkType: "web",
+					link: "https://leafy-sprinkles-8fa441.netlify.app/",
 					shortDescr:
 						"A minimal themed business website for selling digital goods.",
-					description: "",
-					goals: "",
-					techInfo: [],
+					description:
+						"XY Media is a very simple and minimal page meant to sell digital goods.",
+					goals:
+						"The goal of this practice was to try out tailwind and to build a basic shopping cart with the ability to change the item quantity from with the cart as well as automatic price updating.",
+					techInfo: ["HTML", "Tailwind", "Javascript"],
 				},
 			],
 		};

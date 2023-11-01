@@ -8,6 +8,9 @@ const NotFound = () => import("./components/notFound/NotFound.vue");
 
 const router = createRouter({
 	history: createWebHistory(),
+	scrollBehavior(to, from, savedPosition) {
+		return { top: 0 };
+	},
 	routes: [
 		{ path: "/", redirect: "/home" },
 		{ path: "/home", component: Home },
