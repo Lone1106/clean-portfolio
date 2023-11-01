@@ -28,7 +28,7 @@
   }
 
   .darkMode {
-    background: #1b181b;
+    background: #212121;
     color: #f9f9f9;
   }
 </style>

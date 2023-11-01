@@ -35,17 +35,23 @@
 					</transition>
 				</div>
 
-				<div class="block lg:hidden cursor-pointer" @click="toggleMenu">
+				<div class="block lg:hidden" @click="toggleMenu">
 					<i
-						class="fa-solid text-dark fa-bars-staggered fa-xl rotate-180"
+						class="fa-solid text-dark fa-bars-staggered fa-xl rotate-180 cursor-pointer"
+						:class="{ 'text-light': isDarkMode }"
 					></i>
 				</div>
 			</div>
 		</header>
 
 		<nav
-			class="bg-light lg:hidden fixed w-full h-screen inset-0 z-50 flex items-center justify-center transition-all duration-500"
-			:class="{ isHidden: !isMenuOpen, isVisible: isMenuOpen }"
+			class="lg:hidden fixed w-full h-screen inset-0 z-50 flex items-center justify-center transition-all duration-500"
+			:class="{
+				isHidden: !isMenuOpen,
+				isVisible: isMenuOpen,
+				'bg-light': !isDarkMode,
+				'bg-dark': isDarkMode,
+			}"
 		>
 			<div
 				class="absolute top-8 right-12 md:right-40 cursor-pointer"
