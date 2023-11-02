@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="py-12">
+		<section class="py-32 md:py-36">
 			<div class="w-full mb-12">
 				<img
 					:src="currentProject.image"

@@ -1,5 +1,5 @@
 <template>
-	<footer class="w-full font-dark text-center py-8">
+	<footer class="w-full font-dark text-center pb-20 pt-8 lg:py-8">
 		<div>
 			<ul class="flex items-center justify-center gap-4 mb-2">
 				<li>

@@ -1,18 +1,23 @@
 <template>
   <div
-    class="px-12 md:px-40 xl:px-[400px] 2xl:px-[530px] lightMode transition-colors duration-500 relative"
-    :class="{ darkMode: isDarkMode }"
+    :class="{ lightMode: !isDarkMode, darkMode: isDarkMode }"
+    class="transition-colors duration-500"
   >
-    <the-header></the-header>
-    <the-mobile-nav></the-mobile-nav>
-    <main>
-      <router-view v-slot="{ Component }">
-        <transition name="route-change" mode="out-in">
-          <component :is="Component" />
-        </transition>
-      </router-view>
-    </main>
-    <the-footer></the-footer>
+    <div
+      class="px-10 max-w-[650px] mx-auto lightMode transition-colors duration-500 relative"
+      :class="{ darkMode: isDarkMode }"
+    >
+      <the-header></the-header>
+      <the-mobile-nav></the-mobile-nav>
+      <main>
+        <router-view v-slot="{ Component }">
+          <transition name="route-change" mode="out-in">
+            <component :is="Component" />
+          </transition>
+        </router-view>
+      </main>
+      <the-footer></the-footer>
+    </div>
   </div>
 </template>
 
@@ -69,6 +74,7 @@
   const store = useStore();
 
   const isDarkMode = computed(() => store.getters.getMode);
+
   if (
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches

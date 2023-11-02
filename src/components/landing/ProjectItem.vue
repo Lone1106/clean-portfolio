@@ -3,7 +3,12 @@
 		class="flex flex-col md:flex-row items-center justify-between w-full"
 	>
 		<div class="w-full mb-4 md:mb-0 md:w-2/4">
-			<img :src="image" :alt="alt" class="-translate-x-8" loading="lazy" />
+			<img
+				:src="image"
+				:alt="alt"
+				class="-translate-x-6 md:-translate-x-8"
+				loading="lazy"
+			/>
 		</div>
 
 		<div class="w-full md:w-2/3 flex flex-col justify-between">

@@ -5,7 +5,7 @@ export default {
 	state() {
 		return {
 			content: {
-				info: "Hi, my name is Jan. I'm currently working as a prepress operator. In my free time, I enjoy learning about new things. That's why I'm currently learning Japanese and Spanish as my 3rd and 4th foreign languages. On top of that, I am trying to learn more about UI design and web development while also practicing designing and building websites with the current popular tech.",
+				info: "Hi, my name is Jan. I'm currently working as a prepress operator. In my free time, I enjoy learning about new things. That's why I'm currently learning Japanese and Spanish as my 3rd and 4th foreign languages. On top of that, I am trying to learn more about UI design and web development while designing and building websites with the current popular software and tech.",
 				skills: [
 					{
 						title: "Tech",
@@ -40,7 +40,7 @@ export default {
 					{
 						title: "09/2017 - 08/2020",
 						description:
-							"Three year apprenticeship as a media designer, focusing mainly on prepress and label offset printing.",
+							"Three year apprenticeship as a media designer, focusing mainly on prepress for label offset printing.",
 					},
 				],
 			},
