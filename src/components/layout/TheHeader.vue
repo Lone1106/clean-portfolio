@@ -34,6 +34,25 @@
 	</div>
 </template>
 
+<style scoped>
+	.toggle-mode-enter-from,
+	.toggle-mode-leave-to {
+		transform: translateY(10px);
+		opacity: 0;
+	}
+
+	.toggle-mode-enter-active,
+	.toggle-mode-leave-active {
+		transition: all 0.25s ease;
+	}
+
+	.toggle-mode-enter-to,
+	.toggle-mode-leave-from {
+		transform: translateY(0);
+		opacity: 1;
+	}
+</style>
+
 <script setup>
 	import { useStore } from "vuex";
 	import { computed, ref } from "vue";
