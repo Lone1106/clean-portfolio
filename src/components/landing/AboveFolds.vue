@@ -1,6 +1,6 @@
 <template>
 	<section class="w-full">
-		<figure class="py-8 md:py-52 flex flex-col gap-12">
+		<figure class="py-32 md:py-52 flex flex-col gap-12">
 			<div>
 				<h1
 					class="text-4xl md:text-5xl leading-[1.15] md:leading-[1.15] font-bold mb-4"

@@ -9,16 +9,18 @@ const NotFound = () => import("./components/notFound/NotFound.vue");
 const router = createRouter({
 	history: createWebHistory(),
 	scrollBehavior(to, from, savedPosition) {
-		if (to.hash === "#projects") {
+		if (to.hash === "#projects" && from.path !== "/home") {
 			return new Promise((resolve, reject) => {
 				const timer = setTimeout(() => {
-					resolve({ el: to.hash, top: 20, behavior: "smooth" });
+					resolve({ el: to.hash, top: 50, behavior: "smooth" });
 				}, 500);
 			});
 			clearTimeout(timer);
+		} else if (to.hash === "#projects" && from.path === "/home") {
+			return { el: to.hash, top: 50, behavior: "smooth" };
+		} else {
+			return { top: 0, behavior: "smooth" };
 		}
-
-		return { top: 0, behavior: "smooth" };
 	},
 	routes: [
 		{ path: "/", redirect: "/home" },
