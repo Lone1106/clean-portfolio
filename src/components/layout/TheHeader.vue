@@ -29,41 +29,8 @@
 						<i v-else class="fa-solid fa-sun fa-lg"></i>
 					</transition>
 				</div>
-
-				<div class="block lg:hidden" @click="toggleMenu">
-					<i
-						class="fa-solid text-dark fa-bars-staggered fa-xl rotate-180 cursor-pointer"
-						:class="{ 'text-light': isDarkMode }"
-					></i>
-				</div>
 			</div>
 		</header>
-
-		<nav
-			class="lg:hidden fixed w-full h-screen inset-0 z-50 flex items-center justify-center transition-all duration-500"
-			:class="{
-				isHidden: !isMenuOpen,
-				isVisible: isMenuOpen,
-				'bg-light': !isDarkMode,
-				'bg-dark': isDarkMode,
-			}"
-		>
-			<div
-				class="absolute top-8 right-12 md:right-40 cursor-pointer"
-				@click="toggleMenu"
-			>
-				<i class="fa-solid fa-xmark fa-2xl"></i>
-			</div>
-
-			<ul class="flex flex-col justify-center items-center gap-8 text-2xl">
-				<li @click="toggleMenu">
-					<router-link to="/">Home</router-link>
-				</li>
-				<li @click="toggleMenu">
-					<router-link to="/profile">Profile</router-link>
-				</li>
-			</ul>
-		</nav>
 	</div>
 </template>
 
@@ -84,32 +51,3 @@
 		isMenuOpen.value = !isMenuOpen.value;
 	};
 </script>
-
-<style scoped>
-	.isHidden {
-		visibility: hidden;
-		opacity: 0;
-	}
-
-	.isVisible {
-		visibility: visible;
-		opacity: 1;
-	}
-
-	.toggle-mode-enter-from,
-	.toggle-mode-leave-to {
-		transform: translateY(10px);
-		opacity: 0;
-	}
-
-	.toggle-mode-enter-active,
-	.toggle-mode-leave-active {
-		transition: all 0.25s ease;
-	}
-
-	.toggle-mode-enter-to,
-	.toggle-mode-leave-from {
-		transform: translateY(0);
-		opacity: 1;
-	}
-</style>

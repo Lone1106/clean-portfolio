@@ -1,9 +1,10 @@
 <template>
   <div
-    class="px-12 md:px-40 xl:px-[400px] 2xl:px-[530px] lightMode transition-colors duration-500"
+    class="px-12 md:px-40 xl:px-[400px] 2xl:px-[530px] lightMode transition-colors duration-500 relative"
     :class="{ darkMode: isDarkMode }"
   >
     <the-header></the-header>
+    <the-mobile-nav></the-mobile-nav>
     <main>
       <router-view v-slot="{ Component }">
         <transition name="route-change" mode="out-in">
@@ -32,8 +33,8 @@
   }
 
   .darkMode {
-    background: #212121;
-    color: #f9f9f9;
+    background: #121212;
+    color: #f5f5f5;
   }
 
   .route-change-enter-from,
@@ -63,6 +64,7 @@
 
   import TheHeader from "./components/layout/TheHeader.vue";
   import TheFooter from "./components/layout/TheFooter.vue";
+  import TheMobileNav from "./components/layout/TheMobileNav.vue";
 
   const store = useStore();
 

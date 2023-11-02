@@ -43,5 +43,4 @@
 	const store = useStore();
 
 	const data = store.getters["about/getAboutContent"];
-	console.log(data);
 </script>

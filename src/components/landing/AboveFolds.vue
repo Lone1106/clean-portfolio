@@ -5,12 +5,12 @@
 				<h1
 					class="text-4xl md:text-5xl leading-[1.15] md:leading-[1.15] font-bold mb-4"
 				>
-					Aspiring UI Designer and Web Developer. Interested in more than
+					Aspiring UI designer and web developer. Interested in more than
 					just tech. Always trying to learn.
 				</h1>
 				<p class="text-base md:text-lg leading-6 md:leading-7">
-					Hi, my name is Jan. I’m currently working as prepress operator
-					but in my free time im learning about ui design, web development
+					Hi, my name is Jan. I’m currently working as a prepress operator,
+					but in my free time I'm learning about UI design, web development
 					and some other stuff. Feel free to check out my projects and
 					profile!
 				</p>
