@@ -1,7 +1,6 @@
 <template>
 	<header
-		class="w-full flex items-center justify-between py-8 fixed top-0 left-1/2 -translate-x-1/2 max-w-[650px] px-10 transition-colors duration-500"
-		:class="{ 'bg-dark': isDarkMode, 'bg-light': !isDarkMode }"
+		class="w-full flex items-center justify-between py-8 fixed top-0 left-1/2 -translate-x-1/2 max-w-[650px] px-10 bg-inherit"
 	>
 		<div>
 			<router-link to="/">

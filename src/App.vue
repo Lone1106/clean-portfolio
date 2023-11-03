@@ -3,10 +3,7 @@
     :class="{ lightMode: !isDarkMode, darkMode: isDarkMode }"
     class="transition-colors duration-500"
   >
-    <div
-      class="px-10 max-w-[650px] mx-auto lightMode transition-colors duration-500 relative"
-      :class="{ darkMode: isDarkMode }"
-    >
+    <div class="px-10 max-w-[650px] mx-auto relative bg-inherit">
       <the-header></the-header>
       <the-mobile-nav></the-mobile-nav>
       <main>
