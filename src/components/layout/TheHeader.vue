@@ -1,6 +1,6 @@
 <template>
 	<header
-		class="w-full flex items-center justify-between py-8 fixed top-0 left-1/2 -translate-x-1/2 max-w-[650px] px-10 bg-inherit"
+		class="w-full flex items-center justify-between py-8 fixed top-0 left-1/2 -translate-x-1/2 max-w-[650px] px-10 bg-inherit z-50"
 	>
 		<div>
 			<router-link to="/">
@@ -83,9 +83,4 @@
 	const toggleDarkMode = () => store.dispatch("setMode");
 
 	const isDarkMode = computed(() => store.getters.getMode);
-
-	const isMenuOpen = ref(false);
-	const toggleMenu = () => {
-		isMenuOpen.value = !isMenuOpen.value;
-	};
 </script>

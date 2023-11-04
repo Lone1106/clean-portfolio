@@ -10,7 +10,7 @@
 				<p class="text-base md:text-lg leading-6 md:leading-7">
 					Hi, my name is Jan. I’m currently working as a prepress operator,
 					but in my free time I'm learning about UI design and web
-					development
+					development.
 				</p>
 			</div>
 			<router-link to="/profile" class="text-2xl">
