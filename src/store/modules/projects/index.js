@@ -3,7 +3,7 @@ import getters from "./getters.js";
 import jBlog from "../../../assets/jBlog.webp";
 import BeLabel from "../../../assets/BEredesign.webp";
 import EditorPortfolio from "../../../assets/editor-portfolio.webp";
-import SensationalGusto from "../../../assets/Sensational-Gusto.webp";
+import PortfolioCat from "../../../assets/portfolio-cat.webp";
 
 export default {
 	namespaced: true,
@@ -28,17 +28,17 @@ export default {
 				},
 				{
 					id: 2,
-					slug: "sensational-gusto",
-					image: SensationalGusto,
-					altText: "Sensational Gusto Mockup",
-					title: "Sensational Gusto",
+					slug: "portfolio-catalina",
+					image: PortfolioCat,
+					altText: "Portfolio Catalina Mockup",
+					title: "3D Game designer portfolio",
 					linkType: "behance",
-					link: "https://www.behance.net/gallery/183612767/Sensational-Gusto-Pizza-Shop",
-					shortDescr: "Redesign of the website of a local pizza shop.",
+					link: "https://www.behance.net/gallery/183933925/3D-Designer-Portfolio-Website",
+					shortDescr: "Portfolio website redesign of a 3D game designer.",
 					description:
-						"Sensational Gusto (name changed) is a local pizza shop. It's been around for more than 10 years. They sell the biggest and best pizzas in the area. They are even trying to produce all their products with only local resources. Despite them being around for a very long time and having great quality food, this is not reflected in their website. It's a quick-crafted WordPress site with many UX errors and lots of inconsistencies.",
+						"Catalina is a 3D game designer. On the side, she is also crafting parts for cosplays and other fan items from games and series. Her current portfolio site is difficult to navigate, and it's quite hard to find the information you need (content all over the place, long walls of text, not very consistent overall, etc.). Even though her work is good, the site itself makes it very hard to stay focused. (all images are placeholders)",
 					goals:
-						"The goal for this project was to give the shop a more modern web presence befitting of their services, as well as fix UX errors like text disappearing on hover.",
+						"Create a new portfolio page with a clear overview of recent projects as well as the person's skill set. All important information should be easily found. Have a consistent theme across the page. The website should be easy to create and maintain with a website builder like Wix.",
 					techInfo: ["Figma"],
 				},
 				{

@@ -9,7 +9,15 @@ export default {
 				skills: [
 					{
 						title: "Tech",
-						items: ["HTML/CSS", "SASS", "Tailwind", "React", "Vue", "Git"],
+						items: [
+							"HTML/CSS",
+							"SASS",
+							"Javascript",
+							"Tailwind",
+							"React",
+							"Vue",
+							"Git",
+						],
 					},
 					{
 						title: "Software",

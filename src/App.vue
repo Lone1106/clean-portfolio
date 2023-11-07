@@ -1,9 +1,14 @@
 <template>
   <div
-    :class="{ lightMode: !isDarkMode, darkMode: isDarkMode }"
-    class="transition-colors duration-500"
+    :class="{
+      'bg-light': !isDarkMode,
+      'bg-dark': isDarkMode,
+      'text-light': isDarkMode,
+      'text-dark': !isDarkMode,
+    }"
+    class="transition-colors duration-300"
   >
-    <div class="px-10 max-w-[650px] mx-auto relative bg-inherit">
+    <div class="px-10 max-w-[650px] mx-auto relative">
       <the-header></the-header>
       <the-mobile-nav></the-mobile-nav>
       <main>
@@ -27,16 +32,6 @@
 
   html {
     font-family: "Inter", sans-serif;
-  }
-
-  .lightMode {
-    background: #f9f9f9;
-    color: #212121;
-  }
-
-  .darkMode {
-    background: #121212;
-    color: #f5f5f5;
   }
 
   .route-change-enter-from,
