@@ -1,6 +1,7 @@
 <template>
 	<header
-		class="w-full flex items-center justify-between py-8 fixed top-0 left-1/2 -translate-x-1/2 max-w-[650px] px-10 z-50 transition-colors duration-300"
+		id="mainNav"
+		class="w-full flex items-center justify-between py-8 lg:fixed lg:top-0 lg:left-1/2 lg:-translate-x-1/2 max-w-[650px] lg:px-10 z-50 transition-colors duration-300"
 		:class="{
 			'bg-light': !isDarkMode,
 			'bg-dark': isDarkMode,
@@ -34,7 +35,10 @@
 				</ul>
 			</nav>
 
-			<div class="cursor-pointer w-6 text-center" @click="toggleDarkMode">
+			<div
+				class="cursor-pointer w-6 text-center hidden lg:block"
+				@click="toggleDarkMode"
+			>
 				<transition name="toggle-mode" mode="out-in">
 					<i v-if="!isDarkMode" class="fa-solid fa-moon fa-lg"></i>
 					<i v-else class="fa-solid fa-sun fa-lg"></i>

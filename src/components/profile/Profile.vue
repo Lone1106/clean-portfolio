@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="py-32 md:py-36 flex flex-col gap-16">
+		<section class="py-6 lg:py-32 flex flex-col gap-16">
 			<div>
 				<h2 class="font-bold text-4xl mb-10">Profile</h2>
 				<p class="text-base md:text-lg">

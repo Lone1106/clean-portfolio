@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section class="py-32 md:py-36">
+		<section class="py-6 lg:py-32">
 			<div class="w-full mb-12">
 				<img
 					:src="currentProject.image"
@@ -12,7 +12,7 @@
 
 			<div class="flex flex-col gap-16">
 				<div>
-					<h2 class="font-bold text-4xl mb-10">
+					<h2 class="font-bold text-3xl md:text-4xl mb-10">
 						{{ currentProject.title }}
 					</h2>
 					<a :href="currentProject.link" target="_blank" class="text-xl">

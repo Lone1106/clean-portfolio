@@ -32,8 +32,8 @@ export default {
 					image: PortfolioCat,
 					altText: "Portfolio Catalina Mockup",
 					title: "3D Game designer portfolio",
-					linkType: "behance",
-					link: "https://www.behance.net/gallery/183933925/3D-Designer-Portfolio-Website",
+					linkType: "web",
+					link: "https://musical-nasturtium-2c9612.netlify.app/",
 					shortDescr: "Portfolio website redesign of a 3D game designer.",
 					description:
 						"Catalina is a 3D game designer. On the side, she is also crafting parts for cosplays and other fan items from games and series. Her current portfolio site is difficult to navigate, and it's quite hard to find the information you need (content all over the place, long walls of text, not very consistent overall, etc.). Even though her work is good, the site itself makes it very hard to stay focused. (all images are placeholders)",

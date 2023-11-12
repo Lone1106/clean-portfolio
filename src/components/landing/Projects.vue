@@ -1,6 +1,8 @@
 <template>
 	<section class="py-12" id="projects">
-		<h2 class="font-bold text-4xl mb-10">My recent projects</h2>
+		<h2 class="font-bold text-3xl md:text-4xl mb-10">
+			My recent projects
+		</h2>
 		<div class="flex flex-col gap-16">
 			<project-item
 				v-for="p in projects"
