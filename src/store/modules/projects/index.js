@@ -2,7 +2,7 @@ import getters from "./getters.js";
 
 import jBlog from "../../../assets/jBlog.webp";
 import BeLabel from "../../../assets/BEredesign.webp";
-import EditorPortfolio from "../../../assets/editor-portfolio.webp";
+import SensationalGusto from "../../../assets/SensationalGusto.webp";
 import PortfolioCat from "../../../assets/portfolio-cat.webp";
 
 export default {
@@ -28,18 +28,19 @@ export default {
 				},
 				{
 					id: 2,
-					slug: "portfolio-catalina",
-					image: PortfolioCat,
-					altText: "Portfolio Catalina Mockup",
-					title: "3D Game designer portfolio",
+					slug: "sensational-gusto",
+					image: SensationalGusto,
+					altText: "Sensational Gusto Mockup",
+					title: "Sensational Gusto",
 					linkType: "web",
-					link: "https://musical-nasturtium-2c9612.netlify.app/",
-					shortDescr: "Portfolio website redesign of a 3D game designer.",
+					link: "https://cozy-kulfi-2133b1.netlify.app/",
+					shortDescr:
+						"Restaurant website redesign practice project for a local pizza shop.",
 					description:
-						"Catalina is a 3D game designer. On the side, she is also crafting parts for cosplays and other fan items from games and series. Her current portfolio site is difficult to navigate, and it's quite hard to find the information you need (content all over the place, long walls of text, not very consistent overall, etc.). Even though her work is good, the site itself makes it very hard to stay focused. (all images are placeholders)",
+						"Sensational Gusto (name changed) is a local pizza shop offering the biggest and best pizzas in the area. Despite the quality of their food and all their offered services, the website of the shop looks like it was created with WordPress on the fly, without much consistency in the design, a handful of UX problems that make the site hard to use, and a lot of subpages with repeating content.",
 					goals:
-						"Create a new portfolio page with a clear overview of recent projects as well as the person's skill set. All important information should be easily found. Have a consistent theme across the page. The website should be easy to create and maintain with a website builder like Wix.",
-					techInfo: ["Figma"],
+						"The goal for the page was to give off a more modern experience and consistent design than what is currently offered, as well as fix UX problems like links changing to the same color as the background on hover. In addition, some existing pages with repeating content were merged into one to make it easier to navigate the website.",
+					techInfo: ["Figma", "Wordpress"],
 				},
 				{
 					id: 3,
@@ -59,19 +60,18 @@ export default {
 				},
 				{
 					id: 4,
-					slug: "editor-portfolio",
-					image: EditorPortfolio,
-					altText: "Editor Portfolio Mockup",
-					title: "Code editor portfolio",
+					slug: "portfolio-catalina",
+					image: PortfolioCat,
+					altText: "Portfolio Catalina Mockup",
+					title: "3D Game designer portfolio",
 					linkType: "web",
-					link: "https://ubiquitous-granita-aaf3e4.netlify.app/",
-					shortDescr:
-						"A code editor-themed portfolio site inspired by the GitHub dark theme for sublime text.",
+					link: "https://musical-nasturtium-2c9612.netlify.app/",
+					shortDescr: "Portfolio website redesign of a 3D game designer.",
 					description:
-						"A code editor themed portfolio website to showcase projects, info about oneself and offer viewers a means to contact. The site is inspired by the github dark theme for sublime text. ",
+						"Catalina is a 3D game designer. On the side, she is also crafting parts for cosplays and other fan items from games and series. Her current portfolio site is difficult to navigate, and it's quite hard to find the information you need (content all over the place, long walls of text, not very consistent overall, etc.). Even though her work is good, the site itself makes it very hard to stay focused. (all images are placeholders)",
 					goals:
-						"The goal of this website was to replicate the github dark theme from sublime text as a website and use it as a 'techy' portfolio website.",
-					techInfo: ["React"],
+						"Create a new portfolio page with a clear overview of recent projects as well as the person's skill set. All important information should be easily found. Have a consistent theme across the page. The website should be easy to create and maintain with a website builder like Wix.",
+					techInfo: ["Figma", "Wordpress"],
 				},
 			],
 		};
