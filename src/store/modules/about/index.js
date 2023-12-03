@@ -10,10 +10,12 @@ export default {
 					{
 						title: "Tech",
 						items: [
-							"HTML/CSS",
+							"HTML · CSS",
 							"SASS",
 							"Javascript",
 							"Tailwind",
+							"Wordpress",
+							"Elementor",
 							"React",
 							"Vue",
 							"Git",

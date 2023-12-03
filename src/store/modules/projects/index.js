@@ -3,7 +3,7 @@ import getters from "./getters.js";
 import jBlog from "../../../assets/jBlog.webp";
 import BeLabel from "../../../assets/BEredesign.webp";
 import SensationalGusto from "../../../assets/SensationalGusto.webp";
-import PortfolioCat from "../../../assets/portfolio-cat.webp";
+import Jpunktmedia from "../../../assets/jpunktmedia.webp";
 
 export default {
 	namespaced: true,
@@ -28,19 +28,18 @@ export default {
 				},
 				{
 					id: 2,
-					slug: "sensational-gusto",
-					image: SensationalGusto,
-					altText: "Sensational Gusto Mockup",
-					title: "Sensational Gusto",
+					slug: "jpunktmedia",
+					image: Jpunktmedia,
+					altText: "Jpunktmedia  Mockup",
+					title: "jpunktmedia",
 					linkType: "web",
-					link: "https://cozy-kulfi-2133b1.netlify.app/",
-					shortDescr:
-						"Restaurant website redesign practice project for a local pizza shop.",
+					link: "https://graceful-melomakarona-364fc6.netlify.app/",
+					shortDescr: "Website design for a new, small digital agency.",
 					description:
-						"Sensational Gusto (name changed) is a local pizza shop offering the biggest and best pizzas in the area. Despite the quality of their food and all their offered services, the website of the shop looks like it was created with WordPress on the fly, without much consistency in the design, a handful of UX problems that make the site hard to use, and a lot of subpages with repeating content.",
+						"jpunktmedia is a small and new digital agency offering diverse services ranging from web design to website management to data preparation for the print process.",
 					goals:
-						"The goal for the page was to give off a more modern experience and consistent design than what is currently offered, as well as fix UX problems like links changing to the same color as the background on hover. In addition, some existing pages with repeating content were merged into one to make it easier to navigate the website.",
-					techInfo: ["Figma", "Wordpress"],
+						"The goals were to create a clean website that showcases everything the new agency has to offer their clients, as well as information about the agency itself, recent projects and reviews from previous customers.",
+					techInfo: ["Figma", "Wordpress", "Elementor"],
 				},
 				{
 					id: 3,
@@ -60,18 +59,19 @@ export default {
 				},
 				{
 					id: 4,
-					slug: "portfolio-catalina",
-					image: PortfolioCat,
-					altText: "Portfolio Catalina Mockup",
-					title: "3D Game designer portfolio",
+					slug: "sensational-gusto",
+					image: SensationalGusto,
+					altText: "Sensational Gusto Mockup",
+					title: "Sensational Gusto",
 					linkType: "web",
-					link: "https://musical-nasturtium-2c9612.netlify.app/",
-					shortDescr: "Portfolio website redesign of a 3D game designer.",
+					link: "https://cozy-kulfi-2133b1.netlify.app/",
+					shortDescr:
+						"Restaurant website redesign practice project for a local pizza shop.",
 					description:
-						"Catalina is a 3D game designer. On the side, she is also crafting parts for cosplays and other fan items from games and series. Her current portfolio site is difficult to navigate, and it's quite hard to find the information you need (content all over the place, long walls of text, not very consistent overall, etc.). Even though her work is good, the site itself makes it very hard to stay focused. (all images are placeholders)",
+						"Sensational Gusto (name changed) is a local pizza shop offering the biggest and best pizzas in the area. Despite the quality of their food and all their offered services, the website of the shop looks like it was created with WordPress on the fly, without much consistency in the design, a handful of UX problems that make the site hard to use, and a lot of subpages with repeating content.",
 					goals:
-						"Create a new portfolio page with a clear overview of recent projects as well as the person's skill set. All important information should be easily found. Have a consistent theme across the page. The website should be easy to create and maintain with a website builder like Wix.",
-					techInfo: ["Figma", "Wordpress"],
+						"The goal for the page was to give off a more modern experience and consistent design than what is currently offered, as well as fix UX problems like links changing to the same color as the background on hover. In addition, some existing pages with repeating content were merged into one to make it easier to navigate the website.",
+					techInfo: ["Figma", "Wordpress", "Elementor"],
 				},
 			],
 		};
