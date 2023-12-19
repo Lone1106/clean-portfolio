@@ -2,8 +2,8 @@ import getters from "./getters.js";
 
 import jBlog from "../../../assets/jBlog.webp";
 import BeLabel from "../../../assets/BEredesign.webp";
-import SensationalGusto from "../../../assets/SensationalGusto.webp";
 import Jpunktmedia from "../../../assets/jpunktmedia.webp";
+import SensationalGusto from "../../../assets/sensational-gusto.webp";
 
 export default {
 	namespaced: true,
@@ -43,6 +43,21 @@ export default {
 				},
 				{
 					id: 3,
+					slug: "sensational-gusto",
+					image: SensationalGusto,
+					altText: "Sensational Gusto Mockup",
+					title: "Sensational Gusto",
+					linkType: "web",
+					link: "https://papaya-cactus-70ada7.netlify.app/",
+					shortDescr: "Website redesign for a local pizza restaurant.",
+					description:
+						"Sensational Gusto (name changed) is a local pizza shop offering the biggest and best pizzas in the area. Despite the quality of their food and all their offered services, the website of the shop looks like it was created with WordPress on the fly, without much consistency in the design, a handful of UX problems that make the site hard to use, and a lot of subpages with repeating content.",
+					goals:
+						"The goal for the page was to give off a more modern experience and consistent design than what is currently offered, as well as fix UX problems like links changing to the same color as the background on hover. In addition, some existing pages with repeating content were merged into one to make it easier to navigate the website.",
+					techInfo: ["Figma", "Wordpress", "Elementor"],
+				},
+				{
+					id: 4,
 					slug: "be-label",
 					image: BeLabel,
 					altText: "BE Label Mockup",
@@ -56,22 +71,6 @@ export default {
 					goals:
 						"The goal was to give the company a more modern web presence while still keeping the design very clean with only the most important information.",
 					techInfo: ["React", "Tailwind"],
-				},
-				{
-					id: 4,
-					slug: "sensational-gusto",
-					image: SensationalGusto,
-					altText: "Sensational Gusto Mockup",
-					title: "Sensational Gusto",
-					linkType: "web",
-					link: "https://cozy-kulfi-2133b1.netlify.app/",
-					shortDescr:
-						"Restaurant website redesign practice project for a local pizza shop.",
-					description:
-						"Sensational Gusto (name changed) is a local pizza shop offering the biggest and best pizzas in the area. Despite the quality of their food and all their offered services, the website of the shop looks like it was created with WordPress on the fly, without much consistency in the design, a handful of UX problems that make the site hard to use, and a lot of subpages with repeating content.",
-					goals:
-						"The goal for the page was to give off a more modern experience and consistent design than what is currently offered, as well as fix UX problems like links changing to the same color as the background on hover. In addition, some existing pages with repeating content were merged into one to make it easier to navigate the website.",
-					techInfo: ["Figma", "Wordpress", "Elementor"],
 				},
 			],
 		};
